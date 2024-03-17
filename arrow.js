@@ -43,3 +43,37 @@ var titleCase = (str) => {
           }
 //console.log(add(arr));
 
+//4.Return all the prime numbers in an array:
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let primes = ((arr) => {
+    return arr.filter(num => {
+        if (num <= 1) {
+            return false;
+        }
+        for (let i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i === 0) {
+                return false;
+            }
+        }
+        return true;
+    });
+})(numbers);
+
+console.log(primes);
+
+
+//5.Return all the palindromes in an array:
+let words = ["radar", "level", "apple", "banana", "deified", "civic"];
+
+let palindromes = ((arr) => {
+    return arr.filter(word => {
+        return word === word.split('').reverse().join('');
+    });
+})(words);
+
+console.log(palindromes); 
+
+
+
+
