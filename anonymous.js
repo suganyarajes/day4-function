@@ -39,3 +39,8 @@ let strname = function () {
   }
   //console.log(add());
 
+//4.Return all the prime numbers in an array:
+//5.Return all the palindromes in an array:
+//6.Return median of two sorted array of the same size:
+//6.Remove duplicates from an array:
+//7.Rotate an array by k times:
