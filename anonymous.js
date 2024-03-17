@@ -15,6 +15,8 @@ let result = function (){
 
 //console.log(result());
 
+
+
 //2.Convert all the strings to title caps in a string array :
 
 let str = "welcome to my git";
@@ -26,6 +28,8 @@ let strname = function () {
     return str.join(' ');
   }
  // console.log(strname());
+
+
 
   //3.Sum of all numbers in an array:
    var arr=[3,6,8,9,10,15,25];
@@ -39,8 +43,6 @@ let strname = function () {
   }
   //console.log(add());
 
-//4.Return all the prime numbers in an array:
-//5.Return all the palindromes in an array:
-//6.Return median of two sorted array of the same size:
-//6.Remove duplicates from an array:
-//7.Rotate an array by k times:
+
+
+
