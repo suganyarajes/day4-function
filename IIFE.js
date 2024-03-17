@@ -20,14 +20,15 @@ let result = findoddnumber();
 //2.Convert all the strings to title caps in a string array :
 
 let str = "welcome to my git";
-(function (str) {
+let capitalizeWords = (function (str) {
     var str = str.toLowerCase().split(' ');
     for (var i = 0; i < str.length; i++) {
       str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
     } 
     return str.join(' ');
-  })
-  //console.log(str);
+})(str);
+
+//console.log(capitalizeWords); 
 
   //3.Sum of all numbers in an array:
   var arr=[3,6,8,9,10,15,25];
@@ -39,6 +40,8 @@ let str = "welcome to my git";
           }
           console.log(sum);
     } )
-//(arr);
+(arr);
+
+
 
    
